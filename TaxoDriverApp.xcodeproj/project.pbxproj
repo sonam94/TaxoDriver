@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DFBF1C9793268EC5F99BE86 /* Pods_TaxoDriverAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33DACD8A72C613A3D59CF16 /* Pods_TaxoDriverAppUITests.framework */; };
+		2703805722552A740046BCE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703805622552A740046BCE3 /* AppDelegate.swift */; };
+		2703805C22552A740046BCE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2703805A22552A740046BCE3 /* Main.storyboard */; };
+		2703805E22552A760046BCE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2703805D22552A760046BCE3 /* Assets.xcassets */; };
+		2703806122552A760046BCE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2703805F22552A760046BCE3 /* LaunchScreen.storyboard */; };
+		2703806C22552A760046BCE3 /* TaxoDriverAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703806B22552A760046BCE3 /* TaxoDriverAppTests.swift */; };
+		2703807722552A760046BCE3 /* TaxoDriverAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703807622552A760046BCE3 /* TaxoDriverAppUITests.swift */; };
+		2703808B22552C810046BCE3 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2703808A22552C810046BCE3 /* FirstPageViewController.swift */; };
+		2753A9C1225E6BCD00BEC843 /* BaseSideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753A9C0225E6BCD00BEC843 /* BaseSideBarViewController.swift */; };
+		2753A9C4225E6CC500BEC843 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753A9C3225E6CC500BEC843 /* HeaderTableViewCell.swift */; };
+		2753A9C6225E6CE100BEC843 /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753A9C5225E6CE100BEC843 /* SideBarViewController.swift */; };
+		27784A6B225D1C8B0095FA48 /* SwitcherRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27784A6A225D1C8B0095FA48 /* SwitcherRootVC.swift */; };
+		2782C655225A6D64006246AB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2782C654225A6D64006246AB /* Constant.swift */; };
+		2782C657225A76D0006246AB /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2782C656225A76D0006246AB /* NetworkingError.swift */; };
+		2793A7C12259E7F400372AF8 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A7C02259E7F400372AF8 /* NetworkingService.swift */; };
+		279AFA64225BC95F004DF179 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AFA63225BC95F004DF179 /* VerifyViewController.swift */; };
+		279AFA68225BF08D004DF179 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AFA67225BF08D004DF179 /* HomeViewController.swift */; };
+		279AFA6B225BF295004DF179 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AFA6A225BF295004DF179 /* LoginViewController.swift */; };
+		279FD5E5226388E9000CF8BB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FD5E4226388E9000CF8BB /* CustomTextField.swift */; };
+		27A774AD22567B7300CF5DCB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A774AC22567B7300CF5DCB /* RegisterViewController.swift */; };
+		3108C6F4A6C925467746F9F6 /* Pods_TaxoDriverApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D2204212509B0D90E16636 /* Pods_TaxoDriverApp.framework */; };
+		BE9F5A04565B1B75CF3D345D /* Pods_TaxoDriverAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18B050747CCC48C5BC72EA3 /* Pods_TaxoDriverAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2703806822552A760046BCE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2703804B22552A740046BCE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2703805222552A740046BCE3;
+			remoteInfo = TaxoDriverApp;
+		};
+		2703807322552A760046BCE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2703804B22552A740046BCE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2703805222552A740046BCE3;
+			remoteInfo = TaxoDriverApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2703805322552A740046BCE3 /* TaxoDriverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxoDriverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2703805622552A740046BCE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2703805B22552A740046BCE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2703805D22552A760046BCE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2703806022552A760046BCE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2703806222552A760046BCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2703806722552A760046BCE3 /* TaxoDriverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxoDriverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2703806B22552A760046BCE3 /* TaxoDriverAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxoDriverAppTests.swift; sourceTree = "<group>"; };
+		2703806D22552A760046BCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2703807222552A760046BCE3 /* TaxoDriverAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxoDriverAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2703807622552A760046BCE3 /* TaxoDriverAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxoDriverAppUITests.swift; sourceTree = "<group>"; };
+		2703807822552A760046BCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2703808A22552C810046BCE3 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		2753A9C0225E6BCD00BEC843 /* BaseSideBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSideBarViewController.swift; sourceTree = "<group>"; };
+		2753A9C3225E6CC500BEC843 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		2753A9C5225E6CE100BEC843 /* SideBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
+		27784A6A225D1C8B0095FA48 /* SwitcherRootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherRootVC.swift; sourceTree = "<group>"; };
+		2782C654225A6D64006246AB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2782C656225A76D0006246AB /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		2793A7C02259E7F400372AF8 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		279AFA63225BC95F004DF179 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		279AFA67225BF08D004DF179 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		279AFA6A225BF295004DF179 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		279FD5E4226388E9000CF8BB /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		27A774AC22567B7300CF5DCB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3458663E5B4F03ACA9247093 /* Pods-TaxoDriverAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxoDriverAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TaxoDriverAppTests/Pods-TaxoDriverAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B7F3B0E47E36A6CFA9E6D6A /* Pods-TaxoDriverAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxoDriverAppTests.release.xcconfig"; path = "Target Support Files/Pods-TaxoDriverAppTests/Pods-TaxoDriverAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		458082B4D0E0C581BF3008CC /* Pods-TaxoDriverAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxoDriverAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TaxoDriverAppUITests/Pods-TaxoDriverAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E21BBF6FDBF67B8A7D67D20 /* Pods-TaxoDriverApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxoDriverApp.debug.xcconfig"; path = "Target Support Files/Pods-TaxoDriverApp/Pods-TaxoDriverApp.debug.xcconfig"; sourceTree = "<group>"; };
+		727D4209F7B0BFEE288D607F /* Pods-TaxoDriverAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxoDriverAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TaxoDriverAppUITests/Pods-TaxoDriverAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF1AF7A14DF7047E0F9BF462 /* Pods-TaxoDriverApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxoDriverApp.release.xcconfig"; path = "Target Support Files/Pods-TaxoDriverApp/Pods-TaxoDriverApp.release.xcconfig"; sourceTree = "<group>"; };
+		C33DACD8A72C613A3D59CF16 /* Pods_TaxoDriverAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxoDriverAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18B050747CCC48C5BC72EA3 /* Pods_TaxoDriverAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxoDriverAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D2204212509B0D90E16636 /* Pods_TaxoDriverApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxoDriverApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2703805022552A740046BCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3108C6F4A6C925467746F9F6 /* Pods_TaxoDriverApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2703806422552A760046BCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9F5A04565B1B75CF3D345D /* Pods_TaxoDriverAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2703806F22552A760046BCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFBF1C9793268EC5F99BE86 /* Pods_TaxoDriverAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2703804A22552A740046BCE3 = {
+			isa = PBXGroup;
+			children = (
+				2703805522552A740046BCE3 /* TaxoDriverApp */,
+				2703806A22552A760046BCE3 /* TaxoDriverAppTests */,
+				2703807522552A760046BCE3 /* TaxoDriverAppUITests */,
+				2703805422552A740046BCE3 /* Products */,
+				4882EB9E6AF41EEB151BDD2A /* Pods */,
+				30B5393855B85B4FFAEA1A62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2703805422552A740046BCE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2703805322552A740046BCE3 /* TaxoDriverApp.app */,
+				2703806722552A760046BCE3 /* TaxoDriverAppTests.xctest */,
+				2703807222552A760046BCE3 /* TaxoDriverAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2703805522552A740046BCE3 /* TaxoDriverApp */ = {
+			isa = PBXGroup;
+			children = (
+				279AFA65225BF066004DF179 /* HomeVC */,
+				2703806222552A760046BCE3 /* Info.plist */,
+				277E558A225915B8001D7668 /* SignUp */,
+				279AFA62225BC942004DF179 /* Verify */,
+				2703808422552AAD0046BCE3 /* Global */,
+			);
+			path = TaxoDriverApp;
+			sourceTree = "<group>";
+		};
+		2703806A22552A760046BCE3 /* TaxoDriverAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2703806B22552A760046BCE3 /* TaxoDriverAppTests.swift */,
+				2703806D22552A760046BCE3 /* Info.plist */,
+			);
+			path = TaxoDriverAppTests;
+			sourceTree = "<group>";
+		};
+		2703807522552A760046BCE3 /* TaxoDriverAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2703807622552A760046BCE3 /* TaxoDriverAppUITests.swift */,
+				2703807822552A760046BCE3 /* Info.plist */,
+			);
+			path = TaxoDriverAppUITests;
+			sourceTree = "<group>";
+		};
+		2703808422552AAD0046BCE3 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				2703808922552B230046BCE3 /* Service */,
+				2703808722552ADF0046BCE3 /* Controller */,
+				2703808622552AD60046BCE3 /* View */,
+				2703805D22552A760046BCE3 /* Assets.xcassets */,
+				2703808522552ABA0046BCE3 /* Model */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		2703808522552ABA0046BCE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2782C654225A6D64006246AB /* Constant.swift */,
+				27784A6A225D1C8B0095FA48 /* SwitcherRootVC.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2703808622552AD60046BCE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279FD5E4226388E9000CF8BB /* CustomTextField.swift */,
+				2703805A22552A740046BCE3 /* Main.storyboard */,
+				2703805F22552A760046BCE3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2703808722552ADF0046BCE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2703805622552A740046BCE3 /* AppDelegate.swift */,
+				2703808A22552C810046BCE3 /* FirstPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2703808922552B230046BCE3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2793A7C02259E7F400372AF8 /* NetworkingService.swift */,
+				2782C656225A76D0006246AB /* NetworkingError.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2753A9C2225E6C3B00BEC843 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2753A9C5225E6CE100BEC843 /* SideBarViewController.swift */,
+				2753A9C3225E6CC500BEC843 /* HeaderTableViewCell.swift */,
+				2753A9C0225E6BCD00BEC843 /* BaseSideBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		277E558A225915B8001D7668 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				277E558C225915E5001D7668 /* Controller */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		277E558C225915E5001D7668 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27A774AC22567B7300CF5DCB /* RegisterViewController.swift */,
+				279AFA6A225BF295004DF179 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		279AFA62225BC942004DF179 /* Verify */ = {
+			isa = PBXGroup;
+			children = (
+				279AFA63225BC95F004DF179 /* VerifyViewController.swift */,
+			);
+			path = Verify;
+			sourceTree = "<group>";
+		};
+		279AFA65225BF066004DF179 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				2753A9C2225E6C3B00BEC843 /* View */,
+				279AFA66225BF077004DF179 /* Controller */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		279AFA66225BF077004DF179 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				279AFA67225BF08D004DF179 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30B5393855B85B4FFAEA1A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D2204212509B0D90E16636 /* Pods_TaxoDriverApp.framework */,
+				D18B050747CCC48C5BC72EA3 /* Pods_TaxoDriverAppTests.framework */,
+				C33DACD8A72C613A3D59CF16 /* Pods_TaxoDriverAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4882EB9E6AF41EEB151BDD2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E21BBF6FDBF67B8A7D67D20 /* Pods-TaxoDriverApp.debug.xcconfig */,
+				AF1AF7A14DF7047E0F9BF462 /* Pods-TaxoDriverApp.release.xcconfig */,
+				3458663E5B4F03ACA9247093 /* Pods-TaxoDriverAppTests.debug.xcconfig */,
+				3B7F3B0E47E36A6CFA9E6D6A /* Pods-TaxoDriverAppTests.release.xcconfig */,
+				727D4209F7B0BFEE288D607F /* Pods-TaxoDriverAppUITests.debug.xcconfig */,
+				458082B4D0E0C581BF3008CC /* Pods-TaxoDriverAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2703805222552A740046BCE3 /* TaxoDriverApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2703807B22552A760046BCE3 /* Build configuration list for PBXNativeTarget "TaxoDriverApp" */;
+			buildPhases = (
+				244CD9858EECC826AF028991 /* [CP] Check Pods Manifest.lock */,
+				2703804F22552A740046BCE3 /* Sources */,
+				2703805022552A740046BCE3 /* Frameworks */,
+				2703805122552A740046BCE3 /* Resources */,
+				56E0B96322F25D8AB55016D3 /* [CP] Embed Pods Frameworks */,
+				EC9DD3CC87C6791855C485CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxoDriverApp;
+			productName = TaxoDriverApp;
+			productReference = 2703805322552A740046BCE3 /* TaxoDriverApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2703806622552A760046BCE3 /* TaxoDriverAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2703807E22552A760046BCE3 /* Build configuration list for PBXNativeTarget "TaxoDriverAppTests" */;
+			buildPhases = (
+				7CA2711582C8F9A584AFAC1C /* [CP] Check Pods Manifest.lock */,
+				2703806322552A760046BCE3 /* Sources */,
+				2703806422552A760046BCE3 /* Frameworks */,
+				2703806522552A760046BCE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2703806922552A760046BCE3 /* PBXTargetDependency */,
+			);
+			name = TaxoDriverAppTests;
+			productName = TaxoDriverAppTests;
+			productReference = 2703806722552A760046BCE3 /* TaxoDriverAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2703807122552A760046BCE3 /* TaxoDriverAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2703808122552A760046BCE3 /* Build configuration list for PBXNativeTarget "TaxoDriverAppUITests" */;
+			buildPhases = (
+				D7169B8C9CC6E5CC1C5E79AD /* [CP] Check Pods Manifest.lock */,
+				2703806E22552A760046BCE3 /* Sources */,
+				2703806F22552A760046BCE3 /* Frameworks */,
+				2703807022552A760046BCE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2703807422552A760046BCE3 /* PBXTargetDependency */,
+			);
+			name = TaxoDriverAppUITests;
+			productName = TaxoDriverAppUITests;
+			productReference = 2703807222552A760046BCE3 /* TaxoDriverAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2703804B22552A740046BCE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Sonam;
+				TargetAttributes = {
+					2703805222552A740046BCE3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					2703806622552A760046BCE3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2703805222552A740046BCE3;
+					};
+					2703807122552A760046BCE3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2703805222552A740046BCE3;
+					};
+				};
+			};
+			buildConfigurationList = 2703804E22552A740046BCE3 /* Build configuration list for PBXProject "TaxoDriverApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2703804A22552A740046BCE3;
+			productRefGroup = 2703805422552A740046BCE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2703805222552A740046BCE3 /* TaxoDriverApp */,
+				2703806622552A760046BCE3 /* TaxoDriverAppTests */,
+				2703807122552A760046BCE3 /* TaxoDriverAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2703805122552A740046BCE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2703806122552A760046BCE3 /* LaunchScreen.storyboard in Resources */,
+				2703805E22552A760046BCE3 /* Assets.xcassets in Resources */,
+				2703805C22552A740046BCE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2703806522552A760046BCE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2703807022552A760046BCE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244CD9858EECC826AF028991 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaxoDriverApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56E0B96322F25D8AB55016D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaxoDriverApp/Pods-TaxoDriverApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaxoDriverApp/Pods-TaxoDriverApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA2711582C8F9A584AFAC1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaxoDriverAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7169B8C9CC6E5CC1C5E79AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaxoDriverAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9DD3CC87C6791855C485CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaxoDriverApp/Pods-TaxoDriverApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaxoDriverApp/Pods-TaxoDriverApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2703804F22552A740046BCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279FD5E5226388E9000CF8BB /* CustomTextField.swift in Sources */,
+				27784A6B225D1C8B0095FA48 /* SwitcherRootVC.swift in Sources */,
+				2793A7C12259E7F400372AF8 /* NetworkingService.swift in Sources */,
+				279AFA64225BC95F004DF179 /* VerifyViewController.swift in Sources */,
+				2703808B22552C810046BCE3 /* FirstPageViewController.swift in Sources */,
+				2782C657225A76D0006246AB /* NetworkingError.swift in Sources */,
+				279AFA68225BF08D004DF179 /* HomeViewController.swift in Sources */,
+				2753A9C4225E6CC500BEC843 /* HeaderTableViewCell.swift in Sources */,
+				2703805722552A740046BCE3 /* AppDelegate.swift in Sources */,
+				2753A9C6225E6CE100BEC843 /* SideBarViewController.swift in Sources */,
+				27A774AD22567B7300CF5DCB /* RegisterViewController.swift in Sources */,
+				279AFA6B225BF295004DF179 /* LoginViewController.swift in Sources */,
+				2753A9C1225E6BCD00BEC843 /* BaseSideBarViewController.swift in Sources */,
+				2782C655225A6D64006246AB /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2703806322552A760046BCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2703806C22552A760046BCE3 /* TaxoDriverAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2703806E22552A760046BCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2703807722552A760046BCE3 /* TaxoDriverAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2703806922552A760046BCE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2703805222552A740046BCE3 /* TaxoDriverApp */;
+			targetProxy = 2703806822552A760046BCE3 /* PBXContainerItemProxy */;
+		};
+		2703807422552A760046BCE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2703805222552A740046BCE3 /* TaxoDriverApp */;
+			targetProxy = 2703807322552A760046BCE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2703805A22552A740046BCE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2703805B22552A740046BCE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2703805F22552A760046BCE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2703806022552A760046BCE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2703807922552A760046BCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2703807A22552A760046BCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2703807C22552A760046BCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E21BBF6FDBF67B8A7D67D20 /* Pods-TaxoDriverApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxoDriverApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taxo.TaxoDriverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2703807D22552A760046BCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1AF7A14DF7047E0F9BF462 /* Pods-TaxoDriverApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxoDriverApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taxo.TaxoDriverApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2703807F22552A760046BCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3458663E5B4F03ACA9247093 /* Pods-TaxoDriverAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxoDriverAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taxo.TaxoDriverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxoDriverApp.app/TaxoDriverApp";
+			};
+			name = Debug;
+		};
+		2703808022552A760046BCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7F3B0E47E36A6CFA9E6D6A /* Pods-TaxoDriverAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxoDriverAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taxo.TaxoDriverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxoDriverApp.app/TaxoDriverApp";
+			};
+			name = Release;
+		};
+		2703808222552A760046BCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727D4209F7B0BFEE288D607F /* Pods-TaxoDriverAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxoDriverAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taxo.TaxoDriverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaxoDriverApp;
+			};
+			name = Debug;
+		};
+		2703808322552A760046BCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458082B4D0E0C581BF3008CC /* Pods-TaxoDriverAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaxoDriverAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taxo.TaxoDriverAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaxoDriverApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2703804E22552A740046BCE3 /* Build configuration list for PBXProject "TaxoDriverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2703807922552A760046BCE3 /* Debug */,
+				2703807A22552A760046BCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2703807B22552A760046BCE3 /* Build configuration list for PBXNativeTarget "TaxoDriverApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2703807C22552A760046BCE3 /* Debug */,
+				2703807D22552A760046BCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2703807E22552A760046BCE3 /* Build configuration list for PBXNativeTarget "TaxoDriverAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2703807F22552A760046BCE3 /* Debug */,
+				2703808022552A760046BCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2703808122552A760046BCE3 /* Build configuration list for PBXNativeTarget "TaxoDriverAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2703808222552A760046BCE3 /* Debug */,
+				2703808322552A760046BCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2703804B22552A740046BCE3 /* Project object */;
+}
